@@ -38,9 +38,9 @@
     </record>
 
     <record model="ir.actions.act_window" id="action_supplier_info_tree">
-        <field name="name">supplier.info.tree.action</field>
+        <field name="name">Supplier Cost Price</field>
         <field name="res_model">pricelist.partnerinfo</field>
-        <field name="view_type">tree</field>
+        <field name="view_type">form</field>
         <field name="view_mode">tree</field>
         <field name="view_id" ref="supplier_info_tree"/>
         <field name="search_view_id" ref="supplier_info_tree_filter"/>
