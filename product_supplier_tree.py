@@ -27,9 +27,9 @@ class pricelist_partnerinfo(osv.osv):
 
 	_inherit = "pricelist.partnerinfo"
 	_columns = {'partner_id': fields.related('suppinfo_id', 'name',
-				 string="Supplier", type='many2one', store=True, select=True),
+				 string="Supplier", type='many2one', relation='res.partner', store=True),
 				'product_id': fields.related('suppinfo_id', 'product_id',
-				 string="product", type='many2one', store=True, select=True),
+				 string="product", type='many2one', relation='product.product', store=True),
 				'product_name': fields.related('suppinfo_id', 'product_name',
 				 string="Product name Supplier", type='char', store=True, select=True),
 				'product_code': fields.related('suppinfo_id', 'product_code',
