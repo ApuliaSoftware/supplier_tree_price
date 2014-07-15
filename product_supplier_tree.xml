@@ -43,8 +43,6 @@
         <field name="view_mode">tree,form</field>
         <field name="view_id" ref="supplier_info_tree"/>
         <field name="search_view_id" ref="supplier_info_tree_filter"/>
-        <field name="domain"></field>
-        <field name="context"></field>
     </record>
 
     <menuitem name="Suppliers Cost Price" parent="purchase.menu_procurement_management_product" action="action_supplier_info_tree" id="product_cost_price" sequence="15"/>
