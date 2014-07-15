@@ -7,7 +7,7 @@
         <field name="model">product.supplierinfo</field>
         <field name="type">tree</field>
         <field name="arch" type="xml">
-            <tree string="Suppliers Price List" colors="">
+            <tree string="Suppliers Price List" >
 				<field name="name"/>
 				<field name="product_id"/>
                 <field name="price"/>
