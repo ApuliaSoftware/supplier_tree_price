@@ -30,7 +30,7 @@
     'license': 'AGPL-3',
     'category': 'product',
     'website': 'http://www.apuliasoftware.it',
-    'data': ['prduct_supplier_tree.xml'
+    'data': ['product_supplier_tree.xml'
     ],
     'demo': [],
     'installable': True,
